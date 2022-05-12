@@ -17,7 +17,6 @@ body {
     background-size: contain;
     background-color: hsl(257, 40%, 49%);
     color: #fff;
-    height: 100vh
 }
 
 .container {
@@ -56,7 +55,7 @@ header .logo img {
     width: 100%;
 }
 
-.page-content {
+.main-area .page-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +63,7 @@ header .logo img {
     color: #ffffff;
 }
 
-.page-content h1 {
+.main-area .page-content h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 25px;
@@ -72,12 +71,12 @@ header .logo img {
     padding: 50px 0 10px;
 }
 
-.page-content p {
+.main-area .page-content p {
     font-size: 16px;
     padding: 10px 0;
 }
 
-.page-content button {
+.main-area .page-content button {
     font-weight: 600;
     color: hsl(257, 40%, 49%);
     background: #fff;
@@ -90,25 +89,25 @@ header .logo img {
     transition: 1s;
 }
 
-button:hover {
+.main-area .button:hover {
     background-color: hsl(300, 69%, 71%);
     color: #fff;
     transition: inherit;
 }
 
-.footer {
+footer {
     width: 100%;
     padding: 0 35px 15px;
 }
 
-.icons {
+footer .icons {
     display: flex;
     justify-content: center;
     align-content: center;
     padding: 1rem;
 }
 
-.icons a {
+footer .icons a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,12 +120,12 @@ button:hover {
     transition: 1s;
 }
 
-.icons a:hover {
+footer .icons a:hover {
     color: hsl(300, 69%, 71%);
     transition: 1s;
 }
 
-.icons i {
+footer .icons i {
     font-size: 1.5rem;
 }
 
@@ -154,10 +153,10 @@ button:hover {
     .main-area {
         padding: 10px;
     }
-    .page-content h1 {
+    .main-area .page-content h1 {
         padding: 10px 0;
     }
-    .icons a {
+    footer .icons a {
         margin: 10px 0;
     }
 }
@@ -196,28 +195,28 @@ button:hover {
     .main-area .image img {
         width: 600px;
     }
-    .page-content {
+    .main-area .page-content {
         align-items: flex-start;
         text-align: start;
         padding: 0 40px;
     }
-    .page-content h1 {
+    .main-area .page-content h1 {
         font-size: 35px;
     }
-    .page-content p {
+    .main-area .page-content p {
         padding-right: 40px;
     }
-    .footer {
+    footer {
         width: 100%;
         padding: 0 35px 15px;
     }
-    .icons {
+    footer .icons {
         display: flex;
         justify-content: end;
         align-content: center;
         padding: 0 1rem;
     }
-    .icons a {
+    footer .icons a {
         display: flex;
         justify-content: center;
         align-items: center;

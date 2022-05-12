@@ -19,7 +19,7 @@ The designs were created to the following widths:
 ### Headings
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400, 600
+- Weights: 700
 
 ### Body
 
@@ -28,8 +28,7 @@ The designs were created to the following widths:
 
 ## Icons
 
-For the social icons, you can use a font icon library. Some suggestions can be found below:
+For the social icons, I used a font icon library. 
 
 - [Font Awesome](https://fontawesome.com/)
-- [IcoMoon](https://icomoon.io/)
-- [Ionicons](https://ionicons.com/)
+
