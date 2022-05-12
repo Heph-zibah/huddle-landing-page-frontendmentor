@@ -1,1 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 100%;
+    background: url("../img/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 25px;
+}
+
+header .logo img {
+    width: 50%;
+    max-width: 220px;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+    padding: 35px;
+}
+
+.main-area .image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-area .image img {
+    width: 100%;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.page-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 1.6px;
+    padding: 50px 0 10px;
+}
+
+.page-content p {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.page-content button {
+    font-weight: 600;
+    background: #fff;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 100px;
+    color: hsl(257, 40%, 49%);
+    margin: 20px 0;
+    border: 0;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: hsla(360, 100%, 100%, 0.8);
+    transition: 0.5s;
+}
+
+.footer {
+    width: 100%;
+    padding: 0 35px 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.icons:hover {
+    color: hsla(360, 100%, 100%, 0.75);
+    transition: 0.5s;
+}
+
+.icons i {
+    font-size: 1.5rem;
+}
+
+.markup {
+    font-size: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.markup a {
+    color: hsl(300, 69%, 71%);
+}
+
+.markup a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 374px) {
+    .header {
+        padding: 10px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .main-area {
+        padding: 10px;
+    }
+    .page-content h1 {
+        padding: 10px 0;
+    }
+    .icons a {
+        margin: 10px 0;
+    }
+}
