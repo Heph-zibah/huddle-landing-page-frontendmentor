@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub/huddle-landing-page-with-a-single-introductory-section-6Fr7r07m_/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Huddle Website Solution URL](frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub/responsing-landing-page-for-huddle-using-html-and-css-HJ__gvxvq)
+- Live Site URL: [Huddle Website Live site URL](https://huddle-site-frontendmentor.netlify.app/)
 
 ## My process
 
